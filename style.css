@@ -21,9 +21,7 @@ h1 {
 p {
     font-size: 20px;
     color: #ccc;
-    animation: fadeInUp 1s ease-out;
-    animation-delay: 0.5s;
-    animation-fill-mode: both;
+    animation: fadeInUp 1s ease-out 0.5s forwards;
 }
 
 /* Mobile responsiveness */
