@@ -1,17 +1,38 @@
+/* Main page styling */
 body {
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     text-align: center;
     padding-top: 100px;
+    margin: 0;
 }
 
+/* Glowing Heading */
 h1 {
     font-size: 48px;
     color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    margin-bottom: 20px;
 }
 
+/* Paragraph text */
 p {
     font-size: 20px;
     color: #ccc;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    body {
+        padding-top: 50px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
